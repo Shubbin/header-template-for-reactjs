@@ -1,3 +1,4 @@
+/* Remove unnecessary styles if not used */
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
@@ -13,7 +14,7 @@
     bottom: -2px;
     height: 4px;
     width: 100%;
-    background-color: #4F46E5; /* Customize the color as needed */
+    background-color: #ffff; /* Customize the color as needed */
     border-radius: 2px;
   }
   .hover-underline:hover::after {
@@ -23,7 +24,7 @@
     bottom: -2px;
     height: 4px;
     width: 100%;
-    background-color: #4F46E5; /* Customize the color as needed */
+    background-color: #fff;
     border-radius: 2px;
   }
 }

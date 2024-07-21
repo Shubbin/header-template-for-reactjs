@@ -1,10 +1,12 @@
-import React from 'react'
+import React from 'react';
+import { Link } from 'react-router-dom';
 
 export default function Button(props) {
   return (
-   <button className='bg-indigo-500 text-white font-[poppins] py-2 px-6 rounded md:ml-8 hover'>
-   {props.children}
-   </button>
-  )
+    <Link to={props.to}>
+      <button className='w-195 h-73 px-2 py-2 rounded-[35px] border border-white text-white font-[Poppins] hover:bg-transparent hover:opacity-75 transition-opacity duration-300'>
+        {props.children}
+      </button>
+    </Link>
+  );
 }
-
