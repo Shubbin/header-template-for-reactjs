@@ -26,13 +26,7 @@ function App() {
           <Route path="/events" element={<Events />} />
         </Routes>
 
-        {/* Footer */}
-        <footer className=" text-white text-center py-1 fixed bottom-0 w-full flex items-center justify-between px-1">
-          <p className="font-[Poppins] text-small">
-            &copy; 2024 Jimi Pixels Photography.
-          </p>
-          <SocialButton />
-        </footer>
+       
       </div>
     </Router>
   );

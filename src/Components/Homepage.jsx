@@ -4,6 +4,7 @@ import Button from './Button';
 import JimiHomeImage from '../Images/jimi_home.png';
 import JimiHomeImage2 from '../Images/jimi_home2.png';
 import { FaArrowUpRight } from 'react-icons/fa';
+import SocialButton from './SocialButton';
 
 
 // Add more images as needed
@@ -71,6 +72,13 @@ const Homepage = () => {
           </li>
         </ul>
       </div>
+       {/* Footer */}
+       <footer className=" text-white text-center py-1 fixed bottom-0 w-full flex items-center justify-between px-1">
+          <p className="font-[Poppins] text-small">
+            &copy; 2024 Jimi Pixels Photography.
+          </p>
+          <SocialButton />
+        </footer>
     </div>
   );
 };

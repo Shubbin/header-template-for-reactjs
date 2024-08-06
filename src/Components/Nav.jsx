@@ -37,7 +37,7 @@ const Nav = () => {
                 {/* Navigation links */}
                 <ul className={`md:flex md:items-center md:pb-0 pb-12 absolute md:static  md:z-auto z-[-1] left-0 w-full md:w-auto md:pl-0 pl-9 transition-all duration-500 ease-in ${open ? "top-20 opacity-100" : "hidden md:flex"}`}>
                     {links.map((link, index) => (
-                        <li key={index} className='md:ml-8 text-small font-light md:my-0 my-7'>
+                        <li key={index} className='md:ml-8 text-small font-medium md:font-light md:my-0 my-7'>
                             <a
                                 href={link.link}
                                 className={`text-[#f0f0f0] md:font-light hover:text-[#f0f0f0] hover:underline duration-500 ${selected === link.link ? "underline" : ""}`}
